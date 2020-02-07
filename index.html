@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Qingya Clocks</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+} 
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	background:#55d6aa;
+	height:70px;
+}
+header:: after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.logo{
+	float: left;
+	padding: 10px 0;
+
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+nav li{
+display: inline-block;
+margin-left: 70px;
+padding-top: 23px;
+position: relative;
+}
+nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;	
+	font-size: 14px;
+}
+nav a:hover {
+	color: #000;
+}
+
+
+</style>
+<body>
+
+<header>
+<div class="container">
+<img src="logo.png" alt="log class="logo">
+
+<nav>
+<ul>
+<li> <a href="products.html">Products</a></li>
+<li> <a href="contact.html">Contact us</a></li>
+<li> <a href="social.html">Social media</a></li>
+</ul> 
+</nav>
+</header>
+
+
+  <!-- Navbar on small screens -->
+  
+
+<!-- Header -->
+<header class="w3-container w3-light-blue w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">QINGYA CLOCKS</h1>
+
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+	
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Qingya Clocks</h1>
+      <h5 class="w3-padding-32">The company - QingYa Clocks – was set up in 1996, for the manufacturing of clocks. The company’s factory occupied an area of 120 acre with over 1,200 employees. By 2002, QingYa Clocks business has gradually changed from being a clock manufacturer to a mechanical clock importer. Over the past years, QingYa has become the most comprehensive mechanical clock importer in China and Hong Kong, importing established known brands from Europe & America.</h5>
+
+      <p class="w3-text-black">Presently, the Company is the exclusive distributor of 6 world renowned mechanical clock brands in China, Hong Kong and Macau. These brands are: Howard Miller, Kieninger, Comitti, Imperial, Anton Schneider and Chicche.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+   <img src="1.jpg" align="left" style="width:375px;height:350px;">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+   <img src="3.jpg" align="right" style="width:375px;height:350px;">   
+    </div>
+  
+    <div class="w3-twothird">
+      <h1>Our Products</h1>
+      <h5 class="w3-padding-32">We offer a wide display of mechanical and clockwork clocks which can be bought for a affordable price.</h5>
+
+      <p class="w3-text-grey">As of 2019,we have sold over 550,000 products to satisfied customers across the globe.Currently, we have established stores in famous cities and countries such as Hong Kong, Taiwan and Shanghai.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+      <h1 class="w3-margin w3-xlarge"></h1>
+  </div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
